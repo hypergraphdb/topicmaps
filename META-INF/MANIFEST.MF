@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1633982880932
+Build-Jdk: 11.0.2
+Built-By: Gary
+Bundle-ManifestVersion: 2
+Bundle-Name: HyperGraphDB Topic Maps
+Bundle-SymbolicName: org.hypergraphdb-hgdbtm;singleton:=true
+Bundle-Version: 2.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: javax.xml.parsers,javax.xml.transform,javax.xml.transfor
+ m.dom,javax.xml.transform.stream,org.hypergraphdb;version="[2.0,3)",org
+ .hypergraphdb.annotation;version="[2.0,3)",org.hypergraphdb.app.managem
+ ent;version="[2.0,3)",org.hypergraphdb.atom;version="[2.0,3)",org.hyper
+ graphdb.handle;version="[2.0,3)",org.hypergraphdb.indexing;version="[2.
+ 0,3)",org.hypergraphdb.query;version="[2.0,3)",org.hypergraphdb.query.i
+ mpl;version="[2.0,3)",org.hypergraphdb.transaction;version="[2.0,3)",or
+ g.hypergraphdb.type;version="[2.0,3)",org.hypergraphdb.util;version="[2
+ .0,3)",org.tmapi.core,org.w3c.dom,org.w3c.dom.bootstrap,org.w3c.dom.ls
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+Tool: Bnd-4.2.0.201903051501
